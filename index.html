@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#1B1E3A">
+  <title>Adventskalender</title>
+  <link rel="preload" href="fonts/caprasimo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main id="app">
+
+  <!-- Anmeldung -->
+  <section id="view-login" class="view login" aria-labelledby="login-title">
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="door">
+        <span class="door-number">24</span>
+        <span class="knob"></span>
+      </div>
+    </div>
+
+    <form id="login-form" class="login-form" novalidate>
+      <h1 id="login-title" class="page-title" tabindex="-1">Adventskalender</h1>
+      <p class="lead">Melde dich an, um deine Kalender zu öffnen.</p>
+
+      <div class="field">
+        <label for="user">Benutzername</label>
+        <input id="user" name="user" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required>
+      </div>
+
+      <div class="field">
+        <label for="pw">Passwort</label>
+        <input id="pw" name="pw" type="password" autocomplete="current-password" required>
+      </div>
+
+      <p id="login-error" class="error" role="alert" hidden></p>
+
+      <button id="login-btn" class="btn" type="submit">Anmelden</button>
+    </form>
+  </section>
+
+  <!-- Übersicht: sechs Kalender -->
+  <section id="view-home" class="view" aria-labelledby="home-title" hidden>
+    <header class="top">
+      <div>
+        <h1 id="home-title" class="page-title" tabindex="-1"></h1>
+        <p class="lead">Such dir einen Kalender aus.</p>
+      </div>
+      <button id="logout" class="btn btn-quiet" type="button">Abmelden</button>
+    </header>
+    <ul id="tiles" class="tiles"></ul>
+  </section>
+
+  <!-- Einzelner Kalender mit 24 Türchen -->
+  <section id="view-calendar" class="view" aria-labelledby="cal-title" hidden>
+    <a class="back" href="#/">Alle Kalender</a>
+    <header class="cal-head">
+      <h1 id="cal-title" class="page-title" tabindex="-1"></h1>
+      <p id="cal-sub" class="lead"></p>
+      <p id="cal-count" class="count"></p>
+      <p id="preview-note" class="preview-note" hidden>Vorschau: Alle Türchen sind freigeschaltet.</p>
+    </header>
+    <ul id="doors" class="doors"></ul>
+  </section>
+
+</main>
+
+<dialog id="door-dialog" aria-labelledby="d-title">
+  <div class="sheet">
+    <span id="d-badge" class="badge" aria-hidden="true"></span>
+    <h2 id="d-title" class="d-title"></h2>
+    <div id="d-text" class="d-text"></div>
+    <div id="d-media" class="d-media"></div>
+    <p id="d-link-wrap" class="d-link" hidden><a id="d-link" href="#" target="_blank" rel="noopener noreferrer"></a></p>
+    <button id="d-close" class="btn" type="button">Schließen</button>
+  </div>
+</dialog>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<noscript>
+  <p class="noscript">Für den Adventskalender wird JavaScript benötigt.</p>
+</noscript>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
