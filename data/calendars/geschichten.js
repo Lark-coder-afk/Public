@@ -1,5 +1,5 @@
 export default {
-  id: "geschichten",
+  id: "universum",
   title: "Wintergeschichten",
   subtitle: "Eine kurze Geschichte pro Tag",
   color: "#C2415D",

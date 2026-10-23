@@ -6,7 +6,7 @@
     2. id, Titel, Farben und Türchen anpassen
     3. Unten importieren und in die Liste eintragen
 */
-import geschichten from "./geschichten.js";
+import universum from "./universum.js";
 import rezepte from "./rezepte.js";
 import raetsel from "./raetsel.js";
 import musik from "./musik.js";
@@ -14,7 +14,7 @@ import basteln from "./basteln.js";
 import aufmerksamkeiten from "./aufmerksamkeiten.js";
 
 export const calendars = [
-  geschichten,
+  universum,
   rezepte,
   raetsel,
   musik,
