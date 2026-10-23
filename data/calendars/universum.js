@@ -7,7 +7,8 @@ export default {
   doors: {
     1: {
       title: "Das Universum ist rund 13,8 Milliarden Jahre alt.",
-      text: "Unsere Erde kam erst nach etwa 9 Milliarden Jahren dazu."
+      text: "Unsere Erde kam erst nach etwa 9 Milliarden Jahren dazu.",
+      image: "images/universum/1.jpg"
     },
 
     2: {
@@ -17,7 +18,8 @@ export default {
 
     3: {
       title: "Ein Tag auf der Venus dauert länger als ein Jahr auf der Venus.",
-      text: "Sie braucht etwa 243 Erdentage für eine Drehung, aber nur rund 225 Tage für einen Sonnenumlauf."
+      text: "Sie braucht etwa 243 Erdentage für eine Drehung, aber nur rund 225 Tage für einen Sonnenumlauf.",
+      image: "images/universum/3.jpg"
     },
 
     4: {
