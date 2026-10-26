@@ -7,7 +7,7 @@
     3. Unten importieren und in die Liste eintragen
 */
 import universum from "./universum.js";
-import rezepte from "./rezepte.js";
+import mensch from "./mensch.js";
 import raetsel from "./raetsel.js";
 import musik from "./musik.js";
 import basteln from "./basteln.js";
@@ -15,7 +15,7 @@ import aufmerksamkeiten from "./aufmerksamkeiten.js";
 
 export const calendars = [
   universum,
-  rezepte,
+  mensch,
   raetsel,
   musik,
   basteln,

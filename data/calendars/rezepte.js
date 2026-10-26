@@ -1,7 +1,7 @@
 export default {
-  id: "rezepte",
-  title: "Plätzchen & Punsch",
-  subtitle: "Rezepte zum Nachbacken",
+  id: "menschen",
+  title: "Das Wesen des Menschen",
+  subtitle: "24 Fakten über das Wesen des Menschen",
   color: "#2E7D6B",
   ink: "#FFFFFF",
   doors: {
