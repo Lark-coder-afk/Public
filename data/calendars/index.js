@@ -12,6 +12,7 @@ import raetsel from "./raetsel.js";
 import musik from "./musik.js";
 import basteln from "./basteln.js";
 import aufmerksamkeiten from "./aufmerksamkeiten.js";
+import placebo from "./placebo.js";
 
 export const calendars = [
   universum,
@@ -19,5 +20,6 @@ export const calendars = [
   raetsel,
   musik,
   basteln,
-  aufmerksamkeiten
+  aufmerksamkeiten,
+  placebo
 ];

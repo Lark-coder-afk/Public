@@ -1,0 +1,46 @@
+  /*
+  Vorlage für einen Kalender. Kopieren, umbenennen und ausfüllen.
+
+  Felder je Türchen:
+    title      Überschrift
+    text       Text (Absätze mit einer Leerzeile trennen)
+    image      Pfad zu einem Bild, z. B. "bilder/tuerchen-1.jpg"
+    imageAlt   Beschreibung des Bildes
+    link       { url: "https://…", label: "Zum Video" }
+
+  Türchen ohne Eintrag zeigen einen Platzhalter.
+  Die id darf nur Buchstaben, Zahlen und Bindestriche enthalten.
+*/
+export default {
+  id: "meine-id",
+  title: "Titel des Kalenders",
+  subtitle: "Kurze Beschreibung",
+  color: "#C2415D", // Farbe der Türchen
+  ink: "#FFFFFF",   // Schriftfarbe auf der Farbe: hell oder dunkel, je nach Kontrast
+  doors: {
+    1: { title: "Die Kraft der Erwartung", text: "Allein der Glaube daran, dass eine Behandlung hilft, kann Beschwerden lindern. Das nennt man Placebo-Effekt. Unser Gehirn beeinflusst dabei, wie wir Schmerzen und andere Symptome wahrnehmen." },
+    2: { title: "Ein Medikament ohne Wirkstoff", text: "Ein Placebo kann beispielsweise eine Tablette ohne medizinischen Wirkstoff sein. Obwohl sie keine eigentliche Arzneisubstanz enthält, kann sie trotzdem eine positive Wirkung entfalten." },
+    3: { title: "Wenn der Kopf Schmerzen lindert", text: "Der Placebo-Effekt kann dazu führen, dass das Gehirn körpereigene Schmerzhemmer wie Endorphine ausschüttet. Dadurch können Schmerzen tatsächlich nachlassen." },
+    4: { title: "Die Macht der negativen Gedanken", text: "Das Gegenstück zum Placebo-Effekt heißt Nocebo-Effekt. Dabei können negative Erwartungen dazu führen, dass Beschwerden entstehen oder sich verstärken." },
+    5: { title: "Nebenwirkungen ohne Wirkstoff", text: "Menschen können Nebenwirkungen erleben, obwohl sie nur ein wirkstofffreies Präparat erhalten. Allein die Erwartung einer Nebenwirkung kann körperliche Reaktionen auslösen." },
+    6: { title: "Die Verpackung macht den Unterschied", text: "Nicht nur der Inhalt zählt: Auch Aussehen, Farbe und Größe einer Tablette können beeinflussen, wie stark Menschen ihre Wirkung einschätzen." },
+    7: { title: "Vertrauen hilft beim Gesundwerden", text: "Das Vertrauen in einen Arzt oder eine Behandlung kann den Placebo-Effekt verstärken. Eine positive und vertrauensvolle Atmosphäre kann den Heilungsprozess unterstützen." },
+    8: { title: "Teuer bedeutet nicht automatisch besser", text: "Studien zeigen, dass Menschen teuren Medikamenten teilweise eine stärkere Wirkung zuschreiben als günstigen. Auch der Preis kann also Erwartungen beeinflussen." },
+    9: { title: "Die Farbe der Tablette", text: "Die Farbe eines Medikaments kann beeinflussen, welche Wirkung Menschen erwarten. Beispielsweise werden rote Tabletten häufig eher mit anregenden Wirkungen verbunden." },
+    10: { title: "Das Gehirn spielt mit", text: "Der Placebo-Effekt ist keine Einbildung. Im Gehirn lassen sich dabei messbare Veränderungen feststellen, beispielsweise in Bereichen, die an der Schmerzverarbeitung beteiligt sind." },
+    11: { title: "Auch Spritzen können Placebos sein", text: "Eine wirkstofffreie Spritze kann unter bestimmten Umständen einen stärkeren Placebo-Effekt auslösen als eine wirkstofffreie Tablette. Die Art der Behandlung beeinflusst also die Erwartung." },
+    12: { title: "Negative Nachrichten können krank machen", text: "Wer ständig mit möglichen Nebenwirkungen konfrontiert wird, kann diese unter Umständen tatsächlich stärker wahrnehmen. Das ist ein Beispiel für den Nocebo-Effekt." },
+    13: { title: "Placebo wirkt sogar bei Operationen", text: "In Studien zu sogenannten Scheinoperationen wurden teilweise Verbesserungen beobachtet, obwohl der eigentliche operative Eingriff nicht durchgeführt wurde." },
+    14: { title: "Erfahrung beeinflusst die Wirkung", text: "Wenn eine Behandlung in der Vergangenheit geholfen hat, kann das die Erwartungen bei einer erneuten Behandlung positiv beeinflussen." },
+    15: { title: "Der Placebo-Effekt bei Kindern", text: "Auch Kinder können auf Placebos reagieren. Dabei spielen häufig die Erwartungen der Eltern und das Verhalten der behandelnden Personen eine Rolle." },
+    16: { title: "Nicht jeder Mensch reagiert gleich", text: "Der Placebo-Effekt ist individuell unterschiedlich. Während manche Menschen deutlich darauf reagieren, zeigen andere kaum eine messbare Reaktion." },
+    17: { title: "Sogar offene Placebos können wirken", text: "Interessanterweise können Placebos teilweise auch dann helfen, wenn Menschen wissen, dass sie ein wirkstofffreies Präparat erhalten. Man spricht von offenen Placebos." },
+    18: { title: "Die Macht der Worte", text: "Die Formulierung eines Arztes kann einen Unterschied machen. Eine positive, beruhigende Erklärung kann Erwartungen verbessern, während eine beängstigende Erklärung den Nocebo-Effekt begünstigen kann." },
+    19: { title: "Schlaf und Erwartung", text: "Wer glaubt, schlecht geschlafen zu haben, kann sich am nächsten Tag müder fühlen, selbst wenn die tatsächliche Schlafdauer ausreichend war. Auch Erwartungen beeinflussen unser Wohlbefinden." },
+    20: { title: "Placebo bei Depressionen", text: "Auch in der Behandlung von Depressionen wird der Placebo-Effekt untersucht. Positive Erwartungen können zum Behandlungserfolg beitragen, ersetzen aber keine notwendige Therapie." },
+    21: { title: "Der Nocebo-Effekt kann Schmerzen verstärken", text: "Negative Erwartungen können die Schmerzverarbeitung im Gehirn beeinflussen. Dadurch können Schmerzen stärker empfunden werden, als sie ohne diese Erwartungen wahrgenommen würden." },
+    22: { title: "Sogar Tiere können reagieren", text: "Auch bei Tieren wurden Placebo-Effekte beobachtet. Dabei spielen häufig erlernte Reaktionen und die Erwartungen der betreuenden Menschen eine Rolle." },
+    23: { title: "Die Umgebung beeinflusst die Heilung", text: "Ein angenehmes Umfeld, Vertrauen und das Gefühl von Sicherheit können die Wirkung einer Behandlung positiv beeinflussen. Die Umgebung ist also nicht immer nebensächlich." },
+    24: { title: "Deine Gedanken sind mächtiger, als du denkst", text: "Placebo und Nocebo zeigen, wie eng Körper und Psyche miteinander verbunden sind. Unsere Erwartungen können beeinflussen, wie wir Schmerzen, Nebenwirkungen und unser Wohlbefinden erleben." }
+  }
+};
