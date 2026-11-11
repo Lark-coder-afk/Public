@@ -17,7 +17,7 @@ export default {
 
     3: {
       title: "Rekordwert",
-      text: "Weltweit hat die Nachrichtenvermeidung einen Höchststand erreicht. Das zeigt die jährliche Umfrage des Reuters Institute."
+      text: "Weltweit liegt die Nachrichtenvermeidung 2025 bei 40 Prozent und damit auf dem höchsten Wert, den die jährliche Umfrage des Reuters Institute je gemessen hat."
     },
 
     4: {
@@ -41,7 +41,7 @@ export default {
 
     8: {
       title: "Krieg und Politik",
-      text: "Je 29 Prozent finden, es gebe zu viel Berichterstattung über Krieg und Konflikte oder über Politik."
+      text: "Rund 30 Prozent finden, es gebe zu viel Berichterstattung über Krieg und Konflikte, etwa 29 Prozent über Politik."
     },
 
     9: {
@@ -56,7 +56,7 @@ export default {
 
     11: {
       title: "Weg ist nicht gleich weg",
-      text: "Studienautor Sascha Hölig betont, Vermeidung bedeute nicht Nichtnutzung. Viele Menschen achten damit auf ihr seelisches Wohlbefinden."
+      text: "Wer Nachrichten meidet, ist nicht automatisch uninformiert. Viele schützen damit bewusst ihr seelisches Wohlbefinden und greifen nur zu bestimmten Zeiten oder bei bestimmten Themen zu."
     },
 
     12: {
@@ -66,7 +66,7 @@ export default {
 
     13: {
       title: "Wenige Minuten reichen",
-      text: "Schon kurze negative Pandemie-Meldungen senkten in einer Studie (Price et al., 2022) Stimmung und Optimismus. Die Vergleichsgruppe ohne Nachrichten blieb davon unberührt."
+      text: "In Experimenten reichen wenige Minuten mit negativen Meldungen, damit Versuchspersonen angespannter und niedergeschlagener sind als eine Vergleichsgruppe mit neutralen Inhalten."
     },
 
     14: {
@@ -76,7 +76,7 @@ export default {
 
     15: {
       title: "Dauer-Alarmzustand",
-      text: "Der Forscher Bryan McLaughlin sagt, der 24-Stunden-Nachrichtenzyklus könne manche Menschen in permanente Anspannung versetzen. Die Welt wirkt dann dunkel und bedrohlich."
+      text: "Der 24-Stunden-Nachrichtenzyklus mit Push-Meldungen kann manche Menschen in permanente Anspannung versetzen. Die Welt wirkt dann dunkel und bedrohlich."
     },
 
     16: {
@@ -90,18 +90,18 @@ export default {
     },
 
     18: {
-      title: "Stellvertretendes Trauma",
-      text: "Der Forscher Reza Shabahang beschreibt, dass ständiger Konsum negativer Nachrichten wie ein Trauma wirken kann. Man fühlt sich, als hätte man das Geschehen selbst erlebt.."
+      title: "Stellvertretender Stress",
+      text: "Wer Bilder von Katastrophen immer wieder sieht, erlebt sie mit, auch ohne dabei gewesen zu sein. Das kann Stressreaktionen auslösen, die denen echter Betroffener ähneln."
     },
 
     19: {
       title: "Wenn Scrollen zum Problem wird",
-      text: "In einer Studie mit rund 1.100 Befragten zeigten 16,5 Prozent einen „schwer problematischen“ Nachrichtenkonsum. Dazu gehörten mehr Stress, Angst und schlechtere Gesundheit."
+      text: "In einer US-Studie mit rund 1.100 Erwachsenen (McLaughlin, Gotlieb & Mills, 2022) zeigten 16,5 Prozent einen „schwer problematischen“ Nachrichtenkonsum. Dazu gehörten mehr Stress, Angst und schlechtere Gesundheit."
     },
 
     20: {
-      title: "74% zu 8%",
-      text: "In dieser Gruppe berichteten 74 Prozent von psychischen Problemen. Im Rest der Befragten waren es nur 8 Prozent."
+      title: "74 % zu 8 %",
+      text: "In dieser Gruppe fühlten sich 73,6 Prozent im vergangenen Monat „ziemlich“ oder „sehr“ psychisch belastet. Bei allen anderen Befragten waren es nur 8 Prozent."
     },
 
     21: {
@@ -111,7 +111,7 @@ export default {
 
     22: {
       title: "Lehren aus Katastrophen",
-      text: " Nach 9/11 und dem Boston-Marathon-Anschlag zeigte sich: Langer Konsum von Katastrophenberichten hängt mit schlechterer psychischer Gesundheit zusammen. Beim Boston-Anschlag waren manche Vielseher sogar stärker gestresst als Menschen, die vor Ort gewesen waren."
+      text: "Nach 9/11 und dem Boston-Marathon-Anschlag zeigte sich: Langer Konsum von Katastrophenberichten hängt mit schlechterer psychischer Gesundheit zusammen. Beim Boston-Anschlag waren manche Vielseher sogar stärker gestresst als Menschen, die vor Ort gewesen waren."
     },
 
     23: {
@@ -121,7 +121,7 @@ export default {
 
     24: {
       title: "So behältst du die Kontrolle",
-      text: "Push-Meldungen ausschalten, Nachrichten-Apps auf die letzte Handyseite verschieben und den Zugang bewusst etwas umständlicher machen. So entscheidest du selbst, wann du Nachrichten liest. Aber bitte vergess mich nicht, ich bin wichtig! Ich hab dich Lieb und wünsche dir ein Freudiges Fest."
+      text: "Push-Meldungen ausschalten, Nachrichten-Apps auf die letzte Handyseite verschieben und den Zugang bewusst etwas umständlicher machen. So entscheidest du selbst, wann du Nachrichten liest. Aber bitte vergiss mich nicht, ich bin wichtig! Ich hab dich lieb und wünsche dir ein freudiges Fest."
     }
   }
 };
