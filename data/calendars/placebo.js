@@ -1,22 +1,9 @@
-  /*
-  Vorlage für einen Kalender. Kopieren, umbenennen und ausfüllen.
-
-  Felder je Türchen:
-    title      Überschrift
-    text       Text (Absätze mit einer Leerzeile trennen)
-    image      Pfad zu einem Bild, z. B. "bilder/tuerchen-1.jpg"
-    imageAlt   Beschreibung des Bildes
-    link       { url: "https://…", label: "Zum Video" }
-
-  Türchen ohne Eintrag zeigen einen Platzhalter.
-  Die id darf nur Buchstaben, Zahlen und Bindestriche enthalten.
-*/
 export default {
-  id: "meine-id",
-  title: "Titel des Kalenders",
-  subtitle: "Kurze Beschreibung",
-  color: "#C2415D", // Farbe der Türchen
-  ink: "#FFFFFF",   // Schriftfarbe auf der Farbe: hell oder dunkel, je nach Kontrast
+  id: "placebo",
+  title: "Placebo und Nocebo",
+  subtitle: "Wie Erwartungen unseren Körper beeinflussen",
+  color: "#C2415D",
+  ink: "#FFFFFF",
   doors: {
     1: { title: "Die Kraft der Erwartung", text: "Allein der Glaube daran, dass eine Behandlung hilft, kann Beschwerden lindern. Das nennt man Placebo-Effekt. Unser Gehirn beeinflusst dabei, wie wir Schmerzen und andere Symptome wahrnehmen." },
     2: { title: "Ein Medikament ohne Wirkstoff", text: "Ein Placebo kann beispielsweise eine Tablette ohne medizinischen Wirkstoff sein. Obwohl sie keine eigentliche Arzneisubstanz enthält, kann sie trotzdem eine positive Wirkung entfalten." },
@@ -29,7 +16,7 @@ export default {
     9: { title: "Die Farbe der Tablette", text: "Die Farbe eines Medikaments kann beeinflussen, welche Wirkung Menschen erwarten. Beispielsweise werden rote Tabletten häufig eher mit anregenden Wirkungen verbunden." },
     10: { title: "Das Gehirn spielt mit", text: "Der Placebo-Effekt ist keine Einbildung. Im Gehirn lassen sich dabei messbare Veränderungen feststellen, beispielsweise in Bereichen, die an der Schmerzverarbeitung beteiligt sind." },
     11: { title: "Auch Spritzen können Placebos sein", text: "Eine wirkstofffreie Spritze kann unter bestimmten Umständen einen stärkeren Placebo-Effekt auslösen als eine wirkstofffreie Tablette. Die Art der Behandlung beeinflusst also die Erwartung." },
-    12: { title: "Negative Nachrichten können krank machen", text: "Wer ständig mit möglichen Nebenwirkungen konfrontiert wird, kann diese unter Umständen tatsächlich stärker wahrnehmen. Das ist ein Beispiel für den Nocebo-Effekt." },
+    12: { title: "Informationen können Beschwerden auslösen", text: "Wer ständig mit möglichen Nebenwirkungen konfrontiert wird, kann diese unter Umständen tatsächlich stärker wahrnehmen. Das ist ein Beispiel für den Nocebo-Effekt." },
     13: { title: "Placebo wirkt sogar bei Operationen", text: "In Studien zu sogenannten Scheinoperationen wurden teilweise Verbesserungen beobachtet, obwohl der eigentliche operative Eingriff nicht durchgeführt wurde." },
     14: { title: "Erfahrung beeinflusst die Wirkung", text: "Wenn eine Behandlung in der Vergangenheit geholfen hat, kann das die Erwartungen bei einer erneuten Behandlung positiv beeinflussen." },
     15: { title: "Der Placebo-Effekt bei Kindern", text: "Auch Kinder können auf Placebos reagieren. Dabei spielen häufig die Erwartungen der Eltern und das Verhalten der behandelnden Personen eine Rolle." },
