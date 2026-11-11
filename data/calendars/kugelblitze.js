@@ -1,0 +1,33 @@
+export default {
+  id: "kugelblitze",
+  title: "Kugelblitze",
+  subtitle: "Das Rätsel der leuchtenden Kugeln im Gewitter",
+  color: "#1F4E8C",
+  ink: "#FFFFFF",
+  doors: {
+    1: { title: "Was ist ein Kugelblitz?", text: "Ein Kugelblitz ist eine leuchtende Kugel, die bei Gewittern beobachtet wird. Sie schwebt oder rollt durch die Luft, leuchtet meist einige Sekunden und verschwindet dann.", image: "images/kugelblitze/01.svg" },
+    2: { title: "Ein altes Rätsel", text: "Berichte über Kugelblitze gibt es seit Jahrhunderten. Bis heute ist nicht abschließend geklärt, was sie genau sind und wie sie entstehen.", image: "images/kugelblitze/02.svg" },
+    3: { title: "Größe und Farbe", text: "Meist werden Kugelblitze als Kugeln beschrieben, die so groß sind wie eine Murmel bis ein Fußball. Die Farbe wird oft als weiß, gelb, orange oder rötlich angegeben.", image: "images/kugelblitze/03.svg" },
+    4: { title: "Wie lange leuchten sie?", text: "Nach Augenzeugenberichten halten sie meist nur wenige Sekunden an. Einzelne Berichte sprechen von deutlich längeren Zeiten, die sich aber schwer überprüfen lassen.", image: "images/kugelblitze/04.svg" },
+    5: { title: "Sie schweben, statt zu fallen", text: "Viele Zeugen berichten, dass sich Kugelblitze fast schwerelos durch die Luft bewegen, manchmal in Bodennähe, manchmal in Räumen und sogar durch Fenster.", image: "images/kugelblitze/05.svg" },
+    6: { title: "Berichte aus Flugzeugen", text: "Auch Piloten und Passagiere haben von leuchtenden Kugeln berichtet, die durch die Kabine rollen. Meist verschwanden sie ohne Schaden.", image: "images/kugelblitze/06.svg" },
+    7: { title: "Zischen, Knall oder Geruch", text: "Zeugen beschreiben teils ein Zischen oder einen Knall am Ende und manchmal einen Geruch wie Schwefel oder Ozon. Das Verschwinden erfolgt entweder lautlos oder mit einem Knall.", image: "images/kugelblitze/07.svg" },
+    8: { title: "Ein Ereignis von 1638", text: "Im Jahr 1638 soll während eines Unwetters in der Kirche von Widecombe-in-the-Moor in England ein Feuerball gewütet haben. Berichte nennen Tote und Verletzte. Moderne Forscher vermuten einen Kugelblitz.", image: "images/kugelblitze/08.svg" },
+    9: { title: "Georg Wilhelm Richmann", text: "Der Physiker starb 1753 in Sankt Petersburg bei einem Blitzexperiment. Manche Berichte sprechen davon, dass ihn dabei ein Kugelblitz traf. Gesichert ist das nicht.", image: "images/kugelblitze/09.svg" },
+    10: { title: "Wie oft sieht man einen?", text: "Kugelblitze sind selten. Umfragen deuten darauf hin, dass nur ein kleiner Teil der Menschen jemals einen gesehen hat.", image: "images/kugelblitze/10.svg" },
+    11: { title: "Glauben die Forscher an Kugelblitze?", text: "Die Physik nimmt Kugelblitze ernst, auch wenn lange Beweise fehlten. Zu viele Augenzeugen berichten ähnliche Dinge.", image: "images/kugelblitze/11.svg" },
+    12: { title: "Täuschungen", text: "Manche Beobachtungen lassen sich anders erklären, etwa durch Nachbilder auf der Netzhaut nach einem hellen Blitz. Doch nicht alle Berichte passen zu solchen Erklärungen.", image: "images/kugelblitze/12.svg" },
+    13: { title: "Die erste Messung 2012", text: "Im Juli 2012 beobachteten chinesische Forscher auf dem Qinghai-Plateau zufällig einen Kugelblitz. Sie hatten dort Kameras und Spektrographen aufgebaut, um normale Blitze zu messen.", image: "images/kugelblitze/13.svg" },
+    14: { title: "Die Spektren verraten die Elemente", text: "Das aufgezeichnete Licht des Kugelblitzes enthielt Linien von Silizium, Eisen und Calcium. Das sind Elemente, die auch im Erdboden vorkommen (Cen, Yuan & Xue, 2014).", image: "images/kugelblitze/14.svg" },
+    15: { title: "Er dauerte etwa eine Sekunde", text: "Die Kamera zeichnete den Kugelblitz rund eine Sekunde lang auf. Er bewegte sich dabei seitlich durch das Bild und strahlte in einem Bereich von mehreren Metern.", image: "images/kugelblitze/15.svg" },
+    16: { title: "Die Boden-Theorie", text: "Schlägt ein Blitz in den Boden ein, kann der Sand dabei verdampfen. Aus dem Dampf könnten silizium-haltige Teilchen entstehen, die in der Luft nachglühen. So erklären es Forscher in der sogenannten Verdampfungstheorie.", image: "images/kugelblitze/16.svg" },
+    17: { title: "Das Experiment im Labor", text: "In Laborversuchen ließen sich glühende, kurzlebige Kugeln aus Siliziumdampf erzeugen. Sie ähneln Kugelblitzen, sind aber nicht dasselbe wie die in der Natur beobachteten.", image: "images/kugelblitze/17.svg" },
+    18: { title: "Andere Theorien", text: "Neben der Verdampfungstheorie gibt es weitere Ideen: Plasma-Kugeln, Mikrowellen-Blasen, chemische Reaktionen oder Wechselwirkungen mit elektrischen Feldern. Keine davon ist abschließend bestätigt.", image: "images/kugelblitze/18.svg" },
+    19: { title: "Mikrowellen als Ursache?", text: "Eine Theorie besagt, ein Blitz könne Mikrowellenstrahlung in einer Art Blase einschließen, die dann als leuchtende Kugel sichtbar wird. Bisher ist das nur Theorie.", image: "images/kugelblitze/19.svg" },
+    20: { title: "Warum sind sie so schwer zu erforschen?", text: "Kugelblitze treten unvorhersehbar auf und halten nur kurz. Es ist fast unmöglich, ihnen mit Messgeräten zuvorzukommen. Deshalb gibt es bis heute nur sehr wenige Messungen.", image: "images/kugelblitze/20.svg" },
+    21: { title: "Hat jemand einen im Labor erzeugt?", text: "Es ist bisher nicht gelungen, einen echten, vollständig natürlichen Kugelblitz im Labor sicher nachzubauen. Es gibt jedoch Versuche, ähnliche Erscheinungen zu erzeugen.", image: "images/kugelblitze/21.svg" },
+    22: { title: "Kugelblitze in der Kultur", text: "Leuchtende Kugeln tauchen in Sagen, Büchern und Filmen immer wieder auf. Sie wurden früher oft als Geister oder Omen gedeutet.", image: "images/kugelblitze/22.svg" },
+    23: { title: "Wenn du einen siehst", text: "Experten raten, nicht danach zu greifen und ihm nicht nachzulaufen. Am besten ruhig bleiben, Abstand halten und, wenn möglich, ein Video aufnehmen. Jede Aufnahme hilft der Forschung.", image: "images/kugelblitze/23.svg" },
+    24: { title: "Das Rätsel bleibt", text: "Die Natur zeigt uns manchmal Dinge, die wir noch nicht verstehen. Kugelblitze sind ein gutes Beispiel dafür, dass auch in einer Welt voller Technik noch Geheimnisse bleiben. Frohe Weihnachten!", image: "images/kugelblitze/24.svg" }
+  }
+};
