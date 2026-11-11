@@ -1,0 +1,33 @@
+export default {
+  id: "schlaf",
+  title: "Der wahre Zweck des Schlafs",
+  subtitle: "Was passiert, wenn wir die Augen schließen",
+  color: "#243B6B",
+  ink: "#FFFFFF",
+  doors: {
+    1: { title: "Ein Drittel deines Lebens", text: "Menschen verbringen rund ein Drittel ihres Lebens mit Schlafen. Warum wir das tun, ist trotz jahrzehntelanger Forschung nicht vollständig geklärt.", image: "images/schlaf/01.svg" },
+    2: { title: "Schlaf ist kein Stillstand", text: "Während wir schlafen, ist das Gehirn alles andere als ausgeschaltet. Es wechselt zwischen verschiedenen Schlafphasen, die jeweils eigene Aufgaben zu haben scheinen.", image: "images/schlaf/02.svg" },
+    3: { title: "Die Schlafzyklen", text: "Eine Nacht besteht aus mehreren Zyklen von je etwa 90 Minuten. Darin wechseln sich Leichtschlaf, Tiefschlaf und der REM-Schlaf ab.", image: "images/schlaf/03.svg" },
+    4: { title: "Im Tiefschlaf wird aufgeräumt", text: "In der Tiefschlafphase sind Herzschlag und Atmung ruhiger, der Körper erholt sich. Es werden Wachstumshormone ausgeschüttet, die bei Reparatur und Wachstum eine Rolle spielen.", image: "images/schlaf/04.svg" },
+    5: { title: "Das Gehirn wäscht sich", text: "2013 zeigte ein Team um Maiken Nedergaard in Mäusen, dass sich während des Schlafs der Raum zwischen den Gehirnzellen vergrößert. So können Abfallstoffe wie Beta-Amyloid besser abtransportiert werden. Man spricht vom glymphatischen System.", image: "images/schlaf/05.svg" },
+    6: { title: "Beta-Amyloid und Alzheimer", text: "Beta-Amyloid ist ein Eiweiß, das sich bei Alzheimer im Gehirn ablagert. Fachleute vermuten einen Zusammenhang zwischen dauerhaft schlechtem Schlaf und einem höheren Alzheimer-Risiko. Der genaue Zusammenhang wird noch erforscht.", image: "images/schlaf/06.svg" },
+    7: { title: "Schlaf festigt das Gedächtnis", text: "Im Schlaf werden Erlebnisse des Tages geordnet und im Langzeitgedächtnis gespeichert. Wer nach dem Lernen schläft, behält Inhalte meist besser als jemand, der wach bleibt.", image: "images/schlaf/07.svg" },
+    8: { title: "Wiederholung im Schlaf", text: "Experimente an Ratten zeigten, dass im Schlaf dieselben Muster von Nervenzellen aktiv sind wie beim Lernen am Tag, als würde das Gehirn das Erlebte noch einmal abspielen.", image: "images/schlaf/08.svg" },
+    9: { title: "Die Synaptische Homöostase", text: "Eine Theorie von Giulio Tononi und Chiara Cirelli sagt: Tagsüber werden die Verbindungen zwischen Nervenzellen immer stärker. Im Schlaf werden sie wieder heruntergefahren, damit das Gehirn Platz für Neues hat.", image: "images/schlaf/09.svg" },
+    10: { title: "Wozu träumen wir?", text: "Die meisten lebhaften Träume entstehen im REM-Schlaf. Warum wir träumen, ist ungeklärt. Manche Forscher sehen darin eine Art Gefühlsverarbeitung, andere eine Gedächtnishilfe.", image: "images/schlaf/10.svg" },
+    11: { title: "Im REM-Schlaf sind wir gelähmt", text: "Während des REM-Schlafs sind die meisten Muskeln stillgelegt, damit wir Träume nicht körperlich ausleben. Fällt diese Sperre aus, kann es zu auffälligen Bewegungen im Schlaf kommen.", image: "images/schlaf/11.svg" },
+    12: { title: "Schlaf und Gefühle", text: "Wer zu wenig schläft, reagiert gereizter und empfindlicher auf Stress. Untersuchungen zeigen, dass die Amygdala, das Angstzentrum des Gehirns, nach Schlafmangel stärker reagiert.", image: "images/schlaf/12.svg" },
+    13: { title: "Schlafmangel schwächt das Immunsystem", text: "Menschen, die zu wenig schlafen, erkranken laut Studien leichter an Infekten. Schlaf scheint das Abwehrsystem zu unterstützen.", image: "images/schlaf/13.svg" },
+    14: { title: "Müde Fahrer", text: "Nach etwa 17 bis 19 Stunden ohne Schlaf ist die Leistung ähnlich beeinträchtigt wie bei rund 0,5 Promille Alkohol im Blut (Williamson & Feyer, 2000).", image: "images/schlaf/14.svg" },
+    15: { title: "Wie viel Schlaf brauchen wir?", text: "Erwachsene brauchen im Durchschnitt etwa sieben bis neun Stunden pro Nacht. Der Bedarf ist individuell unterschiedlich.", image: "images/schlaf/15.svg" },
+    16: { title: "Der Rekord von Randy Gardner", text: "1964 blieb der Schüler Randy Gardner rund 264 Stunden, also über elf Tage, wach. Er litt unter Konzentrationsstörungen, Stimmungsschwankungen und Halluzinationen, erholte sich aber nach einigen Nächten.", image: "images/schlaf/16.svg" },
+    17: { title: "Ohne Schlaf stirbt man", text: "Bei Ratten führte vollständiger Schlafentzug nach etwa zwei bis drei Wochen zum Tod. Auch beim Menschen gibt es eine seltene Erbkrankheit, die tödliche familiäre Insomnie, bei der der Schlaf immer weiter wegfällt.", image: "images/schlaf/17.svg" },
+    18: { title: "Delfine schlafen mit halbem Gehirn", text: "Delfine schlafen jeweils nur mit einer Gehirnhälfte. Die andere bleibt wach, damit sie atmen und auftauchen können. Man nennt das unihemisphärischen Schlaf.", image: "images/schlaf/18.svg" },
+    19: { title: "Zugvögel und Wale", text: "Auch manche Vögel können mit einer Gehirnhälfte schlafen. Das hilft ihnen bei langen Flügen und in der Gefahr. Schlaf gibt es im ganzen Tierreich, in sehr unterschiedlichen Formen.", image: "images/schlaf/19.svg" },
+    20: { title: "Wie lange schlafen Tiere?", text: "Faultiere in Gefangenschaft schlafen bis zu 16 Stunden am Tag, Giraffen dagegen nur wenige Stunden in kurzen Abschnitten. Pferde können sogar im Stehen dösen.", image: "images/schlaf/20.svg" },
+    21: { title: "Adenosin und Koffein", text: "Je länger wir wach sind, desto mehr Adenosin sammelt sich im Gehirn an und macht uns müde. Koffein blockiert die Andockstellen dieses Stoffes und wirkt dadurch wach machend, ohne die Müdigkeit wirklich zu beseitigen.", image: "images/schlaf/21.svg" },
+    22: { title: "Die innere Uhr", text: "Der Schlaf wird von einer inneren Uhr im Gehirn gesteuert, die auf Licht reagiert. Helles Licht am Morgen hilft, sie zu stellen. Blaues Licht am Abend kann sie verschieben.", image: "images/schlaf/22.svg" },
+    23: { title: "Tipps für guten Schlaf", text: "Feste Schlafenszeiten, ein kühles und dunkles Zimmer, weniger Bildschirm am Abend und kein spätes Koffein können helfen, besser zu schlafen.", image: "images/schlaf/23.svg" },
+    24: { title: "Der wahre Zweck des Schlafs?", text: "Vermutlich gibt es nicht den einen Zweck. Schlaf dient wohl vielen Aufgaben gleichzeitig: Erholung, Gedächtnis, Gefühle, Immunsystem und Hirn-Reinigung. Frohe Weihnachten und eine gute Nacht!", image: "images/schlaf/24.svg" }
+  }
+};
