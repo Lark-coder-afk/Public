@@ -1,7 +1,7 @@
 export default {
   id: "universum",
   title: "Das Universum und was es so treibt",
-  subtitle: "Ein Täglicher Fakt über das Schwarze Nichts um uns",
+  subtitle: "Ein täglicher Fakt über das Schwarze Nichts um uns",
   color: "#010000",
   ink: "#FFFFFF",
   doors: {
@@ -48,8 +48,8 @@ export default {
     },
 
     9: {
-      title: "Die Milchstraße und die Andromedagalaxie kollidieren in ca. 4–5 Milliarden Jahren.",
-      text: "Wegen der riesigen Abstände zwischen den Sternen würden aber kaum Sterne tatsächlich zusammenstoßen."
+      title: "Die Milchstraße und die Andromedagalaxie nähern sich einander an.",
+      text: "Lange galt eine Kollision in 4–5 Milliarden Jahren als sicher. Neuere Berechnungen (2025) sehen dafür nur noch eine Wahrscheinlichkeit von etwa 50 % in den nächsten 10 Milliarden Jahren. Selbst bei einem Zusammenstoß würden wegen der riesigen Abstände kaum Sterne tatsächlich kollidieren."
     },
 
     10: {
@@ -113,17 +113,17 @@ export default {
     },
 
     22: {
-      title: "Der größte bekannte Stern, UY Scuti, ist über 1.700-mal so groß wie die Sonne.",
-      text: "Würde man ihn an die Stelle unserer Sonne setzen, würde er bis über die Jupiterbahn reichen."
+      title: "UY Scuti ist einer der größten bekannten Sterne und etwa 900-mal so groß wie die Sonne.",
+      text: "Frühere Schätzungen lagen bei über 1.700 Sonnenradien, neuere Messungen fallen deutlich kleiner aus. Würde man ihn an die Stelle unserer Sonne setzen, würde er weit über den Asteroidengürtel hinausreichen."
     },
 
     23: {
       title: "Auf dem Mars gibt es den höchsten Vulkan des Sonnensystems.",
-      text: "Olympus Mons ist etwa 22 km hoch, fast dreimal so hoch wie der Mount Everest."
+      text: "Olympus Mons ist etwa 22 km hoch, rund zweieinhalbmal so hoch wie der Mount Everest."
     },
     24: {
       title: "Du bestehst aus Sternenstaub",
-      text: "Fast alle schweren Elemente in deinem Körper, wie Kohlenstoff, Sauerstoff und Eisen, wurden in Sternen oder bei Sternexplosionen geschmiedet. Und trotzdem bist du einzigartig. Du bist mein Universum. Hab eine Schöne Bescherung. Und denk deran, ich liebe dich und werde dich immemer Lieben. Frohe Weihnachten, mein Schatz."
+      text: "Fast alle schweren Elemente in deinem Körper, wie Kohlenstoff, Sauerstoff und Eisen, wurden in Sternen oder bei Sternexplosionen geschmiedet. Und trotzdem bist du einzigartig. Du bist mein Universum. Hab eine schöne Bescherung. Und denk daran, ich liebe dich und werde dich immer lieben. Frohe Weihnachten, mein Schatz."
     }
   }
 };
