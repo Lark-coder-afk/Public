@@ -8,18 +8,16 @@
 */
 import universum from "./universum.js";
 import mensch from "./mensch.js";
-import raetsel from "./raetsel.js";
-import musik from "./musik.js";
-import basteln from "./basteln.js";
-import aufmerksamkeiten from "./aufmerksamkeiten.js";
 import placebo from "./placebo.js";
+import meinungen from "./meinungen.js";
+import kugelblitze from "./kugelblitze.js";
+import schlaf from "./schlaf.js";
 
 export const calendars = [
   universum,
   mensch,
-  raetsel,
-  musik,
-  basteln,
-  aufmerksamkeiten,
-  placebo
+  meinungen,
+  placebo,
+  kugelblitze,
+  schlaf
 ];
